@@ -1,0 +1,72 @@
+/*
+Theme Name : AmnetTheme
+Author: Basavaraj M S
+Version: 1.0
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+body{
+	font-family: Ubuntu;
+}
+
+.card-title{
+	margin-top:20px;
+	text-align:center;
+}
+
+.card-text	{
+	font-weight:bold;
+}
+
+.more-info{
+	text-align:center;
+}
+.nav-link{
+	color:white;
+}
+
+.navbar-brand {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	padding:3px;
+}
+.bg-navy{
+	background: darkslategrey;
+}
+
+.logo{
+	padding: 20px;
+}
+.header-image{
+    border: 1px solid;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.header-nav{
+	border: 1px solid;
+	padding: 5px;
+	font-family:ubuntu;
+	color: white;
+	background: darkblue;
+	border-radius:2%;
+}
+
+.logo{
+	width: 150px;
+}
+
+img{
+	width:100%;
+}
+
+.notranslate{
+	background: transparent;
+	border: none;
+	color: white;
+}
