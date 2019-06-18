@@ -65,7 +65,7 @@ $count = count($body['data']);
                 <div class="card-body mt-3">
                   <p class="card-title text-center"><?php echo $body['data'][$i]['hotel']['name']; ?><br/>( PARIS )</p>
                   <p class="card-text p-3 font-weight-bold">Price : <?php echo $body['data'][$i]['offers'][0]['price']['total']; ?></p>
-                  <a href="http://localhost/wordpress/index.php/product-details?<?php echo $body['data'][$i]['hotel']['name']; ?>" class="btn btn-primary more-info">More Information</a>
+                  <a href="http://localhost/wordpress/index.php/hotel-information?id=<?php echo $body['data'][$i]['hotel']['hotelId']; ?>" class="btn btn-primary more-info">More Information</a>
                 </div>
             </div>
         </div>
